@@ -1,0 +1,20 @@
+{
+  "MainLevel": {
+    "records": 400,
+    "bytes": 74377,
+    "sha256": "172dfd101ad07ecd59c05d6712548e0735d4069574a8efb93d9145a1f906ddb6",
+    "roundtrip": true
+  },
+  "Test1": {
+    "records": 400,
+    "bytes": 308465,
+    "sha256": "965500bd83205d6a03ae1209b57870a59f68cfa5c2324eba1941e9aa4a443d0f",
+    "roundtrip": true
+  },
+  "Test2": {
+    "records": 40,
+    "bytes": 24184,
+    "sha256": "56d74172810d0c90add379661417c99116495d7d10f78c9d6baefca18062065e",
+    "roundtrip": true
+  }
+}

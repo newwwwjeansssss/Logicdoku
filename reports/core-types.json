@@ -1,0 +1,1783 @@
+[
+  {
+    "index": 2708,
+    "name": "PairzzleGameSession",
+    "namespace": "Data.Pairzzle",
+    "byval": 13554,
+    "fieldStart": 14427,
+    "methodStart": 20352,
+    "methodCount": 65,
+    "fieldCount": 32,
+    "token": 33555067,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20352,
+        "name": "get_MetricsRecorder",
+        "declaringType": 2708,
+        "returnType": 12132,
+        "parameterStart": 65535,
+        "token": 100667297,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20353,
+        "name": "get_Puzzle",
+        "declaringType": 2708,
+        "returnType": 13586,
+        "parameterStart": 65535,
+        "token": 100667298,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20354,
+        "name": "get_State",
+        "declaringType": 2708,
+        "returnType": 13529,
+        "parameterStart": 65535,
+        "token": 100667299,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20355,
+        "name": "get_Solved",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667300,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20356,
+        "name": "get_Failed",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667301,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20357,
+        "name": "get_LastGestureLostLife",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667302,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20358,
+        "name": "get_LastGestureWasMistake",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667303,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20359,
+        "name": "get_LastGestureWasCorrect",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667304,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20360,
+        "name": "get_LastMistakeRuleKey",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667305,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20361,
+        "name": "get_LastHintRuleKey",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667306,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20362,
+        "name": "get_ViolatedRuleKeys",
+        "declaringType": 2708,
+        "returnType": 4542,
+        "parameterStart": 65535,
+        "token": 100667307,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20363,
+        "name": "get_HasUnattributedMistake",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667308,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20364,
+        "name": "get_Lives",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667309,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20365,
+        "name": "get_MaxLives",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667310,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20366,
+        "name": "IsLifeSystemUnlocked",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 22944,
+        "token": 100667311,
+        "flags": 150,
+        "parameterCount": 1
+      },
+      {
+        "index": 20367,
+        "name": "get_Steps",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667312,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20368,
+        "name": "get_Combo",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667313,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20369,
+        "name": "get_MaxCombo",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667314,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20370,
+        "name": "get_ComboStreakSegments",
+        "declaringType": 2708,
+        "returnType": 4566,
+        "parameterStart": 65535,
+        "token": 100667315,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20371,
+        "name": "get_HintsUsed",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667316,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20372,
+        "name": "get_LastMove",
+        "declaringType": 2708,
+        "returnType": 5507,
+        "parameterStart": 65535,
+        "token": 100667317,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20373,
+        "name": "get_LastHintMove",
+        "declaringType": 2708,
+        "returnType": 5507,
+        "parameterStart": 65535,
+        "token": 100667318,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20374,
+        "name": "get_LastPlacedMove",
+        "declaringType": 2708,
+        "returnType": 5507,
+        "parameterStart": 65535,
+        "token": 100667319,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20375,
+        "name": ".ctor",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 22945,
+        "token": 100667320,
+        "flags": 6278,
+        "parameterCount": 2
+      },
+      {
+        "index": 20376,
+        "name": "BuildLevelBehavior",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667321,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20377,
+        "name": "Pause",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667322,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20378,
+        "name": "Resume",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667323,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20379,
+        "name": "RestoreLevelBehavior",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 22947,
+        "token": 100667324,
+        "flags": 131,
+        "parameterCount": 2
+      },
+      {
+        "index": 20380,
+        "name": "PendingBehaviorGapSeconds",
+        "declaringType": 2708,
+        "returnType": 15066,
+        "parameterStart": 65535,
+        "token": 100667325,
+        "flags": 131,
+        "parameterCount": 0
+      },
+      {
+        "index": 20381,
+        "name": "BuildFixedGridInfo",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667326,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20382,
+        "name": "ApplyGesture",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 22949,
+        "token": 100667327,
+        "flags": 134,
+        "parameterCount": 2
+      },
+      {
+        "index": 20383,
+        "name": "LoseLife",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667328,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20384,
+        "name": "Revive",
+        "declaringType": 2708,
+        "returnType": 5480,
+        "parameterStart": 65535,
+        "token": 100667329,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20385,
+        "name": "LineMistakes",
+        "declaringType": 2708,
+        "returnType": 4993,
+        "parameterStart": 22951,
+        "token": 100667330,
+        "flags": 134,
+        "parameterCount": 2
+      },
+      {
+        "index": 20386,
+        "name": "Clear",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667331,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20387,
+        "name": "Hint",
+        "declaringType": 2708,
+        "returnType": 13552,
+        "parameterStart": 65535,
+        "token": 100667332,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20388,
+        "name": "PeekHint",
+        "declaringType": 2708,
+        "returnType": 13552,
+        "parameterStart": 65535,
+        "token": 100667333,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20389,
+        "name": "PeekAllLocalHints",
+        "declaringType": 2708,
+        "returnType": 5072,
+        "parameterStart": 65535,
+        "token": 100667334,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20390,
+        "name": "HintForMistake",
+        "declaringType": 2708,
+        "returnType": 13552,
+        "parameterStart": 65535,
+        "token": 100667335,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20391,
+        "name": "FindMistake",
+        "declaringType": 2708,
+        "returnType": 5505,
+        "parameterStart": 65535,
+        "token": 100667336,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20392,
+        "name": "FindAllMistakes",
+        "declaringType": 2708,
+        "returnType": 4993,
+        "parameterStart": 65535,
+        "token": 100667337,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20393,
+        "name": "IsMistakeCell",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 22953,
+        "token": 100667338,
+        "flags": 134,
+        "parameterCount": 1
+      },
+      {
+        "index": 20394,
+        "name": "get_DebugHasSolution",
+        "declaringType": 2708,
+        "returnType": 8842,
+        "parameterStart": 65535,
+        "token": 100667339,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20395,
+        "name": "DebugSolutionAt",
+        "declaringType": 2708,
+        "returnType": 13622,
+        "parameterStart": 22954,
+        "token": 100667340,
+        "flags": 134,
+        "parameterCount": 1
+      },
+      {
+        "index": 20396,
+        "name": "BuildReasoningState",
+        "declaringType": 2708,
+        "returnType": 13529,
+        "parameterStart": 65535,
+        "token": 100667341,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20397,
+        "name": "Violations",
+        "declaringType": 2708,
+        "returnType": 3673,
+        "parameterStart": 65535,
+        "token": 100667342,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20398,
+        "name": "FilledCount",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667343,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20399,
+        "name": "CorrectFilledCount",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667344,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20400,
+        "name": "PlayableCellCount",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667345,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20401,
+        "name": "GetGivenCellCount",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 65535,
+        "token": 100667346,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20402,
+        "name": "RemainingCount",
+        "declaringType": 2708,
+        "returnType": 12062,
+        "parameterStart": 22955,
+        "token": 100667347,
+        "flags": 134,
+        "parameterCount": 1
+      },
+      {
+        "index": 20403,
+        "name": "ElapsedMs",
+        "declaringType": 2708,
+        "returnType": 12091,
+        "parameterStart": 65535,
+        "token": 100667348,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20404,
+        "name": "RestoreState",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 22956,
+        "token": 100667349,
+        "flags": 131,
+        "parameterCount": 9
+      },
+      {
+        "index": 20405,
+        "name": "CheckSolved",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667350,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20406,
+        "name": "FlushOngoingCombo",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667351,
+        "flags": 134,
+        "parameterCount": 0
+      },
+      {
+        "index": 20407,
+        "name": "DetermineMistakeRuleKey",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 22965,
+        "token": 100667352,
+        "flags": 129,
+        "parameterCount": 1
+      },
+      {
+        "index": 20408,
+        "name": "BuildGivenTuples",
+        "declaringType": 2708,
+        "returnType": 4837,
+        "parameterStart": 65535,
+        "token": 100667353,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20409,
+        "name": "RecordFillOrModifyOperation",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 22966,
+        "token": 100667354,
+        "flags": 129,
+        "parameterCount": 5
+      },
+      {
+        "index": 20410,
+        "name": "RecordClearOperation",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 22971,
+        "token": 100667355,
+        "flags": 129,
+        "parameterCount": 2
+      },
+      {
+        "index": 20411,
+        "name": "AdvanceBehaviorRecorderTime",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667356,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20412,
+        "name": "SymbolChar",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 22973,
+        "token": 100667357,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20413,
+        "name": "DetermineReasoningRuleKey",
+        "declaringType": 2708,
+        "returnType": 15481,
+        "parameterStart": 22974,
+        "token": 100667358,
+        "flags": 131,
+        "parameterCount": 2
+      },
+      {
+        "index": 20414,
+        "name": "CollectEditableBlanks",
+        "declaringType": 2708,
+        "returnType": 4993,
+        "parameterStart": 65535,
+        "token": 100667359,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20415,
+        "name": "CollectWrongEditable",
+        "declaringType": 2708,
+        "returnType": 4993,
+        "parameterStart": 65535,
+        "token": 100667360,
+        "flags": 129,
+        "parameterCount": 0
+      },
+      {
+        "index": 20416,
+        "name": ".cctor",
+        "declaringType": 2708,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667361,
+        "flags": 6289,
+        "parameterCount": 0
+      }
+    ],
+    "fields": [
+      {
+        "index": 14427,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113486
+      },
+      {
+        "index": 14428,
+        "name": "_ruleset",
+        "type": 13612,
+        "token": 67113487
+      },
+      {
+        "index": 14429,
+        "name": "_state",
+        "type": 13530,
+        "token": 67113488
+      },
+      {
+        "index": 14430,
+        "name": "_solution",
+        "type": 7416,
+        "token": 67113489
+      },
+      {
+        "index": 14431,
+        "name": "_stopwatch",
+        "type": 15432,
+        "token": 67113490
+      },
+      {
+        "index": 14432,
+        "name": "_random",
+        "type": 14214,
+        "token": 67113491
+      },
+      {
+        "index": 14433,
+        "name": "_hintsUsed",
+        "type": 12063,
+        "token": 67113492
+      },
+      {
+        "index": 14434,
+        "name": "_finishMs",
+        "type": 12092,
+        "token": 67113493
+      },
+      {
+        "index": 14435,
+        "name": "_steps",
+        "type": 12063,
+        "token": 67113494
+      },
+      {
+        "index": 14436,
+        "name": "_combo",
+        "type": 12063,
+        "token": 67113495
+      },
+      {
+        "index": 14437,
+        "name": "_maxCombo",
+        "type": 12063,
+        "token": 67113496
+      },
+      {
+        "index": 14438,
+        "name": "_comboStreakSegments",
+        "type": 4999,
+        "token": 67113497
+      },
+      {
+        "index": 14439,
+        "name": "_lives",
+        "type": 12063,
+        "token": 67113498
+      },
+      {
+        "index": 14440,
+        "name": "_lifeSystemUnlocked",
+        "type": 8851,
+        "token": 67113499
+      },
+      {
+        "index": 14441,
+        "name": "_failed",
+        "type": 8843,
+        "token": 67113500
+      },
+      {
+        "index": 14442,
+        "name": "_solved",
+        "type": 8843,
+        "token": 67113501
+      },
+      {
+        "index": 14443,
+        "name": "_lastGestureLostLife",
+        "type": 8843,
+        "token": 67113502
+      },
+      {
+        "index": 14444,
+        "name": "_lastGestureWasMistake",
+        "type": 8843,
+        "token": 67113503
+      },
+      {
+        "index": 14445,
+        "name": "_lastGestureWasCorrect",
+        "type": 8843,
+        "token": 67113504
+      },
+      {
+        "index": 14446,
+        "name": "_lastMistakeRuleKey",
+        "type": 15482,
+        "token": 67113505
+      },
+      {
+        "index": 14447,
+        "name": "_lastHintRuleKey",
+        "type": 15482,
+        "token": 67113506
+      },
+      {
+        "index": 14448,
+        "name": "_violatedRuleKeys",
+        "type": 3691,
+        "token": 67113507
+      },
+      {
+        "index": 14449,
+        "name": "_hasUnattributedMistake",
+        "type": 8843,
+        "token": 67113508
+      },
+      {
+        "index": 14450,
+        "name": "_lastMove",
+        "type": 5508,
+        "token": 67113509
+      },
+      {
+        "index": 14451,
+        "name": "_lastHintMove",
+        "type": 5508,
+        "token": 67113510
+      },
+      {
+        "index": 14452,
+        "name": "_lastPlacedMove",
+        "type": 5508,
+        "token": 67113511
+      },
+      {
+        "index": 14453,
+        "name": "_behaviorRecorder",
+        "type": 13580,
+        "token": 67113512
+      },
+      {
+        "index": 14454,
+        "name": "_metricsRecorder",
+        "type": 12133,
+        "token": 67113513
+      },
+      {
+        "index": 14455,
+        "name": "_lastBehaviorRecordMs",
+        "type": 12092,
+        "token": 67113514
+      },
+      {
+        "index": 14456,
+        "name": "DebugLifeLossEnabled",
+        "type": 8850,
+        "token": 67113515
+      },
+      {
+        "index": 14457,
+        "name": "DebugRevealSolutionEnabled",
+        "type": 8850,
+        "token": 67113516
+      },
+      {
+        "index": 14458,
+        "name": "LifeSystemUnlockLevelIndex",
+        "type": 12087,
+        "token": 67113517
+      }
+    ]
+  },
+  {
+    "index": 2715,
+    "name": "PairzzleHintReasons",
+    "namespace": "Data.Pairzzle",
+    "byval": 13576,
+    "fieldStart": 14479,
+    "methodStart": 20418,
+    "methodCount": 18,
+    "fieldCount": 1,
+    "token": 33555074,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20418,
+        "name": "Of",
+        "declaringType": 2715,
+        "returnType": 13573,
+        "parameterStart": 22976,
+        "token": 100667363,
+        "flags": 150,
+        "parameterCount": 5
+      },
+      {
+        "index": 20419,
+        "name": "Build",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 22981,
+        "token": 100667364,
+        "flags": 145,
+        "parameterCount": 6
+      },
+      {
+        "index": 20420,
+        "name": "Fallback",
+        "declaringType": 2715,
+        "returnType": 13573,
+        "parameterStart": 22987,
+        "token": 100667365,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20421,
+        "name": "WithoutTarget",
+        "declaringType": 2715,
+        "returnType": 13573,
+        "parameterStart": 22988,
+        "token": 100667366,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20422,
+        "name": "Balance",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 22990,
+        "token": 100667367,
+        "flags": 145,
+        "parameterCount": 5
+      },
+      {
+        "index": 20423,
+        "name": "NoThree",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 22995,
+        "token": 100667368,
+        "flags": 145,
+        "parameterCount": 5
+      },
+      {
+        "index": 20424,
+        "name": "CollectTriplePair",
+        "declaringType": 2715,
+        "returnType": 4993,
+        "parameterStart": 23000,
+        "token": 100667369,
+        "flags": 145,
+        "parameterCount": 8
+      },
+      {
+        "index": 20425,
+        "name": "Edge",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 23008,
+        "token": 100667370,
+        "flags": 145,
+        "parameterCount": 4
+      },
+      {
+        "index": 20426,
+        "name": "Region",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 23012,
+        "token": 100667371,
+        "flags": 145,
+        "parameterCount": 5
+      },
+      {
+        "index": 20427,
+        "name": "EdgeCount",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 23017,
+        "token": 100667372,
+        "flags": 145,
+        "parameterCount": 3
+      },
+      {
+        "index": 20428,
+        "name": "Corner",
+        "declaringType": 2715,
+        "returnType": 5506,
+        "parameterStart": 23020,
+        "token": 100667373,
+        "flags": 145,
+        "parameterCount": 3
+      },
+      {
+        "index": 20429,
+        "name": "ScopeCellsOf",
+        "declaringType": 2715,
+        "returnType": 7308,
+        "parameterStart": 23023,
+        "token": 100667374,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20430,
+        "name": "ScopeContains",
+        "declaringType": 2715,
+        "returnType": 8842,
+        "parameterStart": 23025,
+        "token": 100667375,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20431,
+        "name": "LineCells",
+        "declaringType": 2715,
+        "returnType": 7308,
+        "parameterStart": 23027,
+        "token": 100667376,
+        "flags": 145,
+        "parameterCount": 3
+      },
+      {
+        "index": 20432,
+        "name": "SymbolArg",
+        "declaringType": 2715,
+        "returnType": 13575,
+        "parameterStart": 23030,
+        "token": 100667377,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20433,
+        "name": "LineArg",
+        "declaringType": 2715,
+        "returnType": 13575,
+        "parameterStart": 23032,
+        "token": 100667378,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20434,
+        "name": "NumberArg",
+        "declaringType": 2715,
+        "returnType": 13575,
+        "parameterStart": 23033,
+        "token": 100667379,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20435,
+        "name": ".cctor",
+        "declaringType": 2715,
+        "returnType": 16871,
+        "parameterStart": 65535,
+        "token": 100667380,
+        "flags": 6289,
+        "parameterCount": 0
+      }
+    ],
+    "fields": [
+      {
+        "index": 14479,
+        "name": "NoClues",
+        "type": 7412,
+        "token": 67113538
+      }
+    ]
+  },
+  {
+    "index": 2727,
+    "name": "PairzzleRuleScopes",
+    "namespace": "Data.Pairzzle",
+    "byval": 13610,
+    "fieldStart": 4294967295,
+    "methodStart": 20495,
+    "methodCount": 12,
+    "fieldCount": 0,
+    "token": 33555086,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20495,
+        "name": "Of",
+        "declaringType": 2727,
+        "returnType": 5074,
+        "parameterStart": 23095,
+        "token": 100667440,
+        "flags": 150,
+        "parameterCount": 2
+      },
+      {
+        "index": 20496,
+        "name": "ForcedIn",
+        "declaringType": 2727,
+        "returnType": 5073,
+        "parameterStart": 23097,
+        "token": 100667441,
+        "flags": 150,
+        "parameterCount": 3
+      },
+      {
+        "index": 20497,
+        "name": "ForcedByEdge",
+        "declaringType": 2727,
+        "returnType": 5073,
+        "parameterStart": 23100,
+        "token": 100667442,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20498,
+        "name": "ViolatesWithin",
+        "declaringType": 2727,
+        "returnType": 8842,
+        "parameterStart": 23102,
+        "token": 100667443,
+        "flags": 145,
+        "parameterCount": 3
+      },
+      {
+        "index": 20499,
+        "name": "FindConstraint",
+        "declaringType": 2727,
+        "returnType": 11762,
+        "parameterStart": 23105,
+        "token": 100667444,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20500,
+        "name": "EdgeScopes",
+        "declaringType": 2727,
+        "returnType": 5074,
+        "parameterStart": 23107,
+        "token": 100667445,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20501,
+        "name": "RegionScopes",
+        "declaringType": 2727,
+        "returnType": 5074,
+        "parameterStart": 23108,
+        "token": 100667446,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20502,
+        "name": "EdgeCountScopes",
+        "declaringType": 2727,
+        "returnType": 5074,
+        "parameterStart": 23109,
+        "token": 100667447,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20503,
+        "name": "FirstSymbolCells",
+        "declaringType": 2727,
+        "returnType": 7308,
+        "parameterStart": 23110,
+        "token": 100667448,
+        "flags": 145,
+        "parameterCount": 2
+      },
+      {
+        "index": 20504,
+        "name": "CornerScopes",
+        "declaringType": 2727,
+        "returnType": 5074,
+        "parameterStart": 23112,
+        "token": 100667449,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20505,
+        "name": "HoleScopes",
+        "declaringType": 2727,
+        "returnType": 5074,
+        "parameterStart": 23113,
+        "token": 100667450,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20506,
+        "name": "LineCells",
+        "declaringType": 2727,
+        "returnType": 7308,
+        "parameterStart": 23114,
+        "token": 100667451,
+        "flags": 145,
+        "parameterCount": 3
+      }
+    ],
+    "fields": []
+  },
+  {
+    "index": 2728,
+    "name": "IPairzzleConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 11762,
+    "fieldStart": 4294967295,
+    "methodStart": 20507,
+    "methodCount": 2,
+    "fieldCount": 0,
+    "token": 33555087,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20507,
+        "name": "get_Key",
+        "declaringType": 2728,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667452,
+        "flags": 3526,
+        "parameterCount": 0
+      },
+      {
+        "index": 20508,
+        "name": "Violations",
+        "declaringType": 2728,
+        "returnType": 3673,
+        "parameterStart": 23117,
+        "token": 100667453,
+        "flags": 1478,
+        "parameterCount": 1
+      }
+    ],
+    "fields": []
+  },
+  {
+    "index": 2731,
+    "name": "BalanceConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 8572,
+    "fieldStart": 14539,
+    "methodStart": 20510,
+    "methodCount": 3,
+    "fieldCount": 2,
+    "token": 33555090,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20510,
+        "name": ".ctor",
+        "declaringType": 2731,
+        "returnType": 16871,
+        "parameterStart": 23121,
+        "token": 100667455,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20511,
+        "name": "get_Key",
+        "declaringType": 2731,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667456,
+        "flags": 2534,
+        "parameterCount": 0
+      },
+      {
+        "index": 20512,
+        "name": "Violations",
+        "declaringType": 2731,
+        "returnType": 3673,
+        "parameterStart": 23122,
+        "token": 100667457,
+        "flags": 486,
+        "parameterCount": 1
+      }
+    ],
+    "fields": [
+      {
+        "index": 14539,
+        "name": "RuleKey",
+        "type": 15502,
+        "token": 67113598
+      },
+      {
+        "index": 14540,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113599
+      }
+    ]
+  },
+  {
+    "index": 2732,
+    "name": "NoThreeConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 13290,
+    "fieldStart": 14541,
+    "methodStart": 20513,
+    "methodCount": 4,
+    "fieldCount": 2,
+    "token": 33555091,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20513,
+        "name": ".ctor",
+        "declaringType": 2732,
+        "returnType": 16871,
+        "parameterStart": 23123,
+        "token": 100667458,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20514,
+        "name": "get_Key",
+        "declaringType": 2732,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667459,
+        "flags": 2534,
+        "parameterCount": 0
+      },
+      {
+        "index": 20515,
+        "name": "Violations",
+        "declaringType": 2732,
+        "returnType": 3673,
+        "parameterStart": 23124,
+        "token": 100667460,
+        "flags": 486,
+        "parameterCount": 1
+      },
+      {
+        "index": 20516,
+        "name": "Scan",
+        "declaringType": 2732,
+        "returnType": 16871,
+        "parameterStart": 23125,
+        "token": 100667461,
+        "flags": 129,
+        "parameterCount": 3
+      }
+    ],
+    "fields": [
+      {
+        "index": 14541,
+        "name": "RuleKey",
+        "type": 15502,
+        "token": 67113600
+      },
+      {
+        "index": 14542,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113601
+      }
+    ]
+  },
+  {
+    "index": 2733,
+    "name": "EdgeSignConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 10334,
+    "fieldStart": 14543,
+    "methodStart": 20517,
+    "methodCount": 3,
+    "fieldCount": 2,
+    "token": 33555092,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20517,
+        "name": ".ctor",
+        "declaringType": 2733,
+        "returnType": 16871,
+        "parameterStart": 23128,
+        "token": 100667462,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20518,
+        "name": "get_Key",
+        "declaringType": 2733,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667463,
+        "flags": 2534,
+        "parameterCount": 0
+      },
+      {
+        "index": 20519,
+        "name": "Violations",
+        "declaringType": 2733,
+        "returnType": 3673,
+        "parameterStart": 23129,
+        "token": 100667464,
+        "flags": 486,
+        "parameterCount": 1
+      }
+    ],
+    "fields": [
+      {
+        "index": 14543,
+        "name": "RuleKey",
+        "type": 15502,
+        "token": 67113602
+      },
+      {
+        "index": 14544,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113603
+      }
+    ]
+  },
+  {
+    "index": 2734,
+    "name": "RegionConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 14410,
+    "fieldStart": 14545,
+    "methodStart": 20520,
+    "methodCount": 3,
+    "fieldCount": 3,
+    "token": 33555093,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20520,
+        "name": ".ctor",
+        "declaringType": 2734,
+        "returnType": 16871,
+        "parameterStart": 23130,
+        "token": 100667465,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20521,
+        "name": "get_Key",
+        "declaringType": 2734,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667466,
+        "flags": 2534,
+        "parameterCount": 0
+      },
+      {
+        "index": 20522,
+        "name": "Violations",
+        "declaringType": 2734,
+        "returnType": 3673,
+        "parameterStart": 23131,
+        "token": 100667467,
+        "flags": 486,
+        "parameterCount": 1
+      }
+    ],
+    "fields": [
+      {
+        "index": 14545,
+        "name": "RuleKey",
+        "type": 15502,
+        "token": 67113604
+      },
+      {
+        "index": 14546,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113605
+      },
+      {
+        "index": 14547,
+        "name": "_groups",
+        "type": 2791,
+        "token": 67113606
+      }
+    ]
+  },
+  {
+    "index": 2735,
+    "name": "EdgeCountConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 10333,
+    "fieldStart": 14548,
+    "methodStart": 20523,
+    "methodCount": 3,
+    "fieldCount": 2,
+    "token": 33555094,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20523,
+        "name": ".ctor",
+        "declaringType": 2735,
+        "returnType": 16871,
+        "parameterStart": 23132,
+        "token": 100667468,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20524,
+        "name": "get_Key",
+        "declaringType": 2735,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667469,
+        "flags": 2534,
+        "parameterCount": 0
+      },
+      {
+        "index": 20525,
+        "name": "Violations",
+        "declaringType": 2735,
+        "returnType": 3673,
+        "parameterStart": 23133,
+        "token": 100667470,
+        "flags": 486,
+        "parameterCount": 1
+      }
+    ],
+    "fields": [
+      {
+        "index": 14548,
+        "name": "RuleKey",
+        "type": 15502,
+        "token": 67113607
+      },
+      {
+        "index": 14549,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113608
+      }
+    ]
+  },
+  {
+    "index": 2736,
+    "name": "CornerConstraint",
+    "namespace": "Data.Pairzzle",
+    "byval": 9645,
+    "fieldStart": 14550,
+    "methodStart": 20526,
+    "methodCount": 3,
+    "fieldCount": 2,
+    "token": 33555095,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20526,
+        "name": ".ctor",
+        "declaringType": 2736,
+        "returnType": 16871,
+        "parameterStart": 23134,
+        "token": 100667471,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20527,
+        "name": "get_Key",
+        "declaringType": 2736,
+        "returnType": 15481,
+        "parameterStart": 65535,
+        "token": 100667472,
+        "flags": 2534,
+        "parameterCount": 0
+      },
+      {
+        "index": 20528,
+        "name": "Violations",
+        "declaringType": 2736,
+        "returnType": 3673,
+        "parameterStart": 23135,
+        "token": 100667473,
+        "flags": 486,
+        "parameterCount": 1
+      }
+    ],
+    "fields": [
+      {
+        "index": 14550,
+        "name": "RuleKey",
+        "type": 15502,
+        "token": 67113609
+      },
+      {
+        "index": 14551,
+        "name": "_puzzle",
+        "type": 13587,
+        "token": 67113610
+      }
+    ]
+  },
+  {
+    "index": 2737,
+    "name": "PairzzleRuleSet",
+    "namespace": "Data.Pairzzle",
+    "byval": 13611,
+    "fieldStart": 14552,
+    "methodStart": 20529,
+    "methodCount": 6,
+    "fieldCount": 1,
+    "token": 33555096,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20529,
+        "name": "get_Constraints",
+        "declaringType": 2737,
+        "returnType": 4978,
+        "parameterStart": 65535,
+        "token": 100667474,
+        "flags": 2182,
+        "parameterCount": 0
+      },
+      {
+        "index": 20530,
+        "name": ".ctor",
+        "declaringType": 2737,
+        "returnType": 16871,
+        "parameterStart": 23136,
+        "token": 100667475,
+        "flags": 6278,
+        "parameterCount": 1
+      },
+      {
+        "index": 20531,
+        "name": "AllViolations",
+        "declaringType": 2737,
+        "returnType": 3673,
+        "parameterStart": 23137,
+        "token": 100667476,
+        "flags": 134,
+        "parameterCount": 1
+      },
+      {
+        "index": 20532,
+        "name": "ViolationsByRule",
+        "declaringType": 2737,
+        "returnType": 5075,
+        "parameterStart": 23138,
+        "token": 100667477,
+        "flags": 134,
+        "parameterCount": 1
+      },
+      {
+        "index": 20533,
+        "name": "HasViolation",
+        "declaringType": 2737,
+        "returnType": 8842,
+        "parameterStart": 23139,
+        "token": 100667478,
+        "flags": 134,
+        "parameterCount": 1
+      },
+      {
+        "index": 20534,
+        "name": "IsSolved",
+        "declaringType": 2737,
+        "returnType": 8842,
+        "parameterStart": 23140,
+        "token": 100667479,
+        "flags": 134,
+        "parameterCount": 1
+      }
+    ],
+    "fields": [
+      {
+        "index": 14552,
+        "name": "_constraints",
+        "type": 4979,
+        "token": 67113611
+      }
+    ]
+  },
+  {
+    "index": 2739,
+    "name": "PairzzleSolver",
+    "namespace": "Data.Pairzzle",
+    "byval": 13621,
+    "fieldStart": 4294967295,
+    "methodStart": 20535,
+    "methodCount": 9,
+    "fieldCount": 0,
+    "token": 33555098,
+    "image": "Pairzzle.Runtime.dll",
+    "methods": [
+      {
+        "index": 20535,
+        "name": "CountCompletions",
+        "declaringType": 2739,
+        "returnType": 12062,
+        "parameterStart": 23141,
+        "token": 100667480,
+        "flags": 150,
+        "parameterCount": 3
+      },
+      {
+        "index": 20536,
+        "name": "HasUniqueSolution",
+        "declaringType": 2739,
+        "returnType": 8842,
+        "parameterStart": 23144,
+        "token": 100667481,
+        "flags": 150,
+        "parameterCount": 1
+      },
+      {
+        "index": 20537,
+        "name": "Solve",
+        "declaringType": 2739,
+        "returnType": 13529,
+        "parameterStart": 23145,
+        "token": 100667482,
+        "flags": 150,
+        "parameterCount": 1
+      },
+      {
+        "index": 20538,
+        "name": "GetHint",
+        "declaringType": 2739,
+        "returnType": 5505,
+        "parameterStart": 23146,
+        "token": 100667483,
+        "flags": 150,
+        "parameterCount": 2
+      },
+      {
+        "index": 20539,
+        "name": "GetLocalHint",
+        "declaringType": 2739,
+        "returnType": 5505,
+        "parameterStart": 23148,
+        "token": 100667484,
+        "flags": 150,
+        "parameterCount": 2
+      },
+      {
+        "index": 20540,
+        "name": "GetAllLocalHints",
+        "declaringType": 2739,
+        "returnType": 5073,
+        "parameterStart": 23150,
+        "token": 100667485,
+        "flags": 150,
+        "parameterCount": 2
+      },
+      {
+        "index": 20541,
+        "name": "CausesOwnViolation",
+        "declaringType": 2739,
+        "returnType": 8842,
+        "parameterStart": 23152,
+        "token": 100667486,
+        "flags": 145,
+        "parameterCount": 3
+      },
+      {
+        "index": 20542,
+        "name": "CollectEmpties",
+        "declaringType": 2739,
+        "returnType": 4993,
+        "parameterStart": 23155,
+        "token": 100667487,
+        "flags": 145,
+        "parameterCount": 1
+      },
+      {
+        "index": 20543,
+        "name": "CollectEditableEmpties",
+        "declaringType": 2739,
+        "returnType": 4993,
+        "parameterStart": 23156,
+        "token": 100667488,
+        "flags": 145,
+        "parameterCount": 1
+      }
+    ],
+    "fields": []
+  }
+]

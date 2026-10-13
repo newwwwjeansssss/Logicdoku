@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+apk/
+extracted/
+decoded/
+previews/
+/native/
+/reports/metadata-parsed.json
+/reports/game-types.json
+/reports/native-methods.json
+/reports/metadata-string-table.txt
+/reports/asset-index.json
