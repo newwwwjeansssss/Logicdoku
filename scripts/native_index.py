@@ -61,5 +61,5 @@ if __name__=='__main__':
     try:target=int(ins.op_str.removeprefix('#'),16);note=' ; '+name_map.get(target,'')
     except:pass
    lines.append(f'{ins.address:08x}: {ins.mnemonic:8} {ins.op_str}{note}')
-  (out/f"{m['type']}_{m['name'].replace('/','_')}_{a:x}.asm").write_text('\n'.join(lines))
+  (out/f"{m['type']}_{m['name'].replace('/','_')}_{a:x}.asm").write_text('\n'.join(line.rstrip() for line in lines)+'\n')
  print('mapped',len(mapped),'methods')

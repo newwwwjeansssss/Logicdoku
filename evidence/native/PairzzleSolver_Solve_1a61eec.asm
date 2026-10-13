@@ -15,28 +15,28 @@
 01a61f20: tbnz     w8, #0, #0x1a61f68
 01a61f24: adrp     x0, #0x21f0000
 01a61f28: ldr      x0, [x0, #0x470]
-01a61f2c: bl       #0xe54c48 ; 
+01a61f2c: bl       #0xe54c48 ;
 01a61f30: adrp     x0, #0x220b000
 01a61f34: ldr      x0, [x0, #0x218]
-01a61f38: bl       #0xe54c48 ; 
+01a61f38: bl       #0xe54c48 ;
 01a61f3c: adrp     x0, #0x220b000
 01a61f40: ldr      x0, [x0, #0x2f8]
-01a61f44: bl       #0xe54c48 ; 
+01a61f44: bl       #0xe54c48 ;
 01a61f48: adrp     x0, #0x2211000
 01a61f4c: ldr      x0, [x0, #0xf48]
-01a61f50: bl       #0xe54c48 ; 
+01a61f50: bl       #0xe54c48 ;
 01a61f54: adrp     x0, #0x2211000
 01a61f58: ldr      x0, [x0, #0xf60]
-01a61f5c: bl       #0xe54c48 ; 
+01a61f5c: bl       #0xe54c48 ;
 01a61f60: mov      w8, #1
 01a61f64: strb     w8, [x19, #0xd20]
 01a61f68: ldr      x0, [x22]
-01a61f6c: bl       #0xe54e9c ; 
+01a61f6c: bl       #0xe54e9c ;
 01a61f70: mov      x1, x21
 01a61f74: mov      x19, x0
 01a61f78: bl       #0x1a61a28 ; PairzzleRuleSet..ctor
 01a61f7c: ldr      x0, [x20]
-01a61f80: bl       #0xe54e9c ; 
+01a61f80: bl       #0xe54e9c ;
 01a61f84: mov      x1, x21
 01a61f88: mov      x20, x0
 01a61f8c: bl       #0x1a6076c ; PairzzleBoardState..ctor
@@ -50,7 +50,7 @@
 01a61fac: ldr      x25, [x25, #0x2f8]
 01a61fb0: ldr      w1, [x0, #0x18]
 01a61fb4: ldr      x0, [x8]
-01a61fb8: bl       #0xe54cf0 ; 
+01a61fb8: bl       #0xe54cf0 ;
 01a61fbc: mov      x22, x0
 01a61fc0: mov      w23, wzr
 01a61fc4: mov      w26, #1
@@ -61,7 +61,7 @@
 01a61fd8: ldr      x2, [x25]
 01a61fdc: mov      x0, x21
 01a61fe0: mov      w1, w23
-01a61fe4: bl       #0x140455c ; 
+01a61fe4: bl       #0x140455c ;
 01a61fe8: cbz      x22, #0x1a620f8
 01a61fec: ldr      w8, [x22, #0x18]
 01a61ff0: cmp      w23, w8
@@ -73,7 +73,7 @@
 01a62008: cmp      w8, #1
 01a6200c: b.le     #0x1a62068
 01a62010: cbnz     x20, #0x1a620a0
-01a62014: b        #0x1a620f8 ; 
+01a62014: b        #0x1a620f8 ;
 01a62018: str      w26, [x28]
 01a6201c: cbz      x20, #0x1a620f8
 01a62020: mov      x0, x20
@@ -93,7 +93,7 @@
 01a62058: mov      w2, #2
 01a6205c: str      w27, [x28]
 01a62060: bl       #0x1a60bec ; PairzzleBoardState.Set
-01a62064: b        #0x1a62090 ; 
+01a62064: b        #0x1a62090 ;
 01a62068: ldr      w8, [x22, #0x18]
 01a6206c: cmp      w23, w8
 01a62070: b.hs     #0x1a620fc
@@ -117,7 +117,7 @@
 01a620b8: b.hs     #0x1a620fc
 01a620bc: mov      w8, #-1
 01a620c0: str      wzr, [x28]
-01a620c4: b        #0x1a620cc ; 
+01a620c4: b        #0x1a620cc ;
 01a620c8: mov      w8, #1
 01a620cc: adds     w23, w23, w8
 01a620d0: b.pl     #0x1a61fcc
@@ -129,6 +129,6 @@
 01a620e8: ldp      x26, x25, [sp, #0x20]
 01a620ec: ldp      x28, x27, [sp, #0x10]
 01a620f0: ldr      x30, [sp], #0x60
-01a620f4: ret      
-01a620f8: bl       #0xe54eac ; 
-01a620fc: bl       #0xe54eb4 ; 
+01a620f4: ret
+01a620f8: bl       #0xe54eac ;
+01a620fc: bl       #0xe54eb4 ;

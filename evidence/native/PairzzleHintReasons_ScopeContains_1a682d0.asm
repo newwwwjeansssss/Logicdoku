@@ -15,11 +15,11 @@
 01a68304: add      w9, w9, #1
 01a68308: cmp      w10, w9
 01a6830c: b.ne     #0x1a682ec
-01a68310: b        #0x1a68318 ; 
+01a68310: b        #0x1a68318 ;
 01a68314: mov      w9, wzr
 01a68318: cmp      w9, w8
 01a6831c: cset     w0, lt
 01a68320: ldr      x30, [sp], #0x10
-01a68324: ret      
-01a68328: bl       #0xe54eb4 ; 
-01a6832c: bl       #0xe54eac ; 
+01a68324: ret
+01a68328: bl       #0xe54eb4 ;
+01a6832c: bl       #0xe54eac ;

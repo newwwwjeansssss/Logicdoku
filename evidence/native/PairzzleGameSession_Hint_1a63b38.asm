@@ -10,28 +10,28 @@
 01a63b58: tbnz     w8, #0, #0x1a63bc4
 01a63b5c: adrp     x0, #0x220b000
 01a63b60: ldr      x0, [x0, #0x218]
-01a63b64: bl       #0xe54c48 ; 
+01a63b64: bl       #0xe54c48 ;
 01a63b68: adrp     x0, #0x220b000
 01a63b6c: ldr      x0, [x0, #0x2f8]
-01a63b70: bl       #0xe54c48 ; 
+01a63b70: bl       #0xe54c48 ;
 01a63b74: adrp     x0, #0x2212000
 01a63b78: ldr      x0, [x0, #0x10]
-01a63b7c: bl       #0xe54c48 ; 
+01a63b7c: bl       #0xe54c48 ;
 01a63b80: adrp     x0, #0x2212000
 01a63b84: ldr      x0, [x0, #0x48]
-01a63b88: bl       #0xe54c48 ; 
+01a63b88: bl       #0xe54c48 ;
 01a63b8c: adrp     x0, #0x2212000
 01a63b90: ldr      x0, [x0, #0x50]
-01a63b94: bl       #0xe54c48 ; 
+01a63b94: bl       #0xe54c48 ;
 01a63b98: adrp     x0, #0x2212000
 01a63b9c: ldr      x0, [x0, #0x58]
-01a63ba0: bl       #0xe54c48 ; 
+01a63ba0: bl       #0xe54c48 ;
 01a63ba4: adrp     x0, #0x220b000
 01a63ba8: ldr      x0, [x0, #0x3d8]
-01a63bac: bl       #0xe54c48 ; 
+01a63bac: bl       #0xe54c48 ;
 01a63bb0: adrp     x0, #0x2212000
 01a63bb4: ldr      x0, [x0, #0x60]
-01a63bb8: bl       #0xe54c48 ; 
+01a63bb8: bl       #0xe54c48 ;
 01a63bbc: mov      w8, #1
 01a63bc0: strb     w8, [x20, #0xcb1]
 01a63bc4: movi     v0.2d, #0000000000000000
@@ -47,7 +47,7 @@
 01a63bec: ldp      x24, x23, [sp, #0x50]
 01a63bf0: ldp      x30, x25, [sp, #0x40]
 01a63bf4: add      sp, sp, #0x80
-01a63bf8: ret      
+01a63bf8: ret
 01a63bfc: ldr      x8, [x19, #0x28]
 01a63c00: cbz      x8, #0x1a63cb0
 01a63c04: mov      x0, x19
@@ -71,7 +71,7 @@
 01a63c4c: ldr      x21, [x21, #0x50]
 01a63c50: ldr      x22, [x8, #0x18]
 01a63c54: ldr      x1, [x21]
-01a63c58: bl       #0x14feff0 ; 
+01a63c58: bl       #0x14feff0 ;
 01a63c5c: cbz      x22, #0x1a63e6c
 01a63c60: ldr      w8, [x22, #0x18]
 01a63c64: cmp      w0, w8
@@ -90,11 +90,11 @@
 01a63c98: mov      x0, x20
 01a63c9c: ldr      x8, [x8, #0x2f8]
 01a63ca0: ldr      x2, [x8]
-01a63ca4: bl       #0x140455c ; 
+01a63ca4: bl       #0x140455c ;
 01a63ca8: mov      w20, w0
-01a63cac: b        #0x1a63ce4 ; 
+01a63cac: b        #0x1a63ce4 ;
 01a63cb0: mov      x22, xzr
-01a63cb4: b        #0x1a63be0 ; 
+01a63cb4: b        #0x1a63be0 ;
 01a63cb8: mov      x0, x19
 01a63cbc: ldp      x20, x19, [sp, #0x70]
 01a63cc0: ldp      x22, x21, [sp, #0x60]
@@ -104,7 +104,7 @@
 01a63cd0: b        #0x1a63fc0 ; PairzzleGameSession.HintForMistake
 01a63cd4: ldr      x1, [x21]
 01a63cd8: add      x0, sp, #0x30
-01a63cdc: bl       #0x14feff0 ; 
+01a63cdc: bl       #0x14feff0 ;
 01a63ce0: mov      x20, x0
 01a63ce4: ldr      x8, [x19, #0x28]
 01a63ce8: cbz      x8, #0x1a63e6c
@@ -121,7 +121,7 @@
 01a63d14: mov      x0, x19
 01a63d18: mov      x1, x22
 01a63d1c: str      x22, [x0, #0x80]!
-01a63d20: bl       #0xe54bf4 ; 
+01a63d20: bl       #0xe54bf4 ;
 01a63d24: ldr      x23, [x19, #0x10]
 01a63d28: mov      x0, x19
 01a63d2c: bl       #0x1a641e0 ; PairzzleGameSession.BuildReasoningState
@@ -133,7 +133,7 @@
 01a63d44: ldr      w9, [x8, #0xe4]
 01a63d48: cbnz     w9, #0x1a63d54
 01a63d4c: mov      x0, x8
-01a63d50: bl       #0xe54d80 ; 
+01a63d50: bl       #0xe54d80 ;
 01a63d54: add      x8, sp, #0x10
 01a63d58: mov      x0, x23
 01a63d5c: mov      x1, x25
@@ -153,7 +153,7 @@
 01a63d94: str      wzr, [sp, #8]
 01a63d98: str      xzr, [sp]
 01a63d9c: ldr      x2, [x8]
-01a63da0: bl       #0x14ff910 ; 
+01a63da0: bl       #0x14ff910 ;
 01a63da4: ldr      x8, [sp]
 01a63da8: ldr      w10, [x19, #0x40]
 01a63dac: mov      x0, x19
@@ -174,7 +174,7 @@
 01a63de8: ldr      x0, [x9]
 01a63dec: ldr      w9, [x0, #0xe4]
 01a63df0: cbnz     w9, #0x1a63df8
-01a63df4: bl       #0xe54d80 ; 
+01a63df4: bl       #0xe54d80 ;
 01a63df8: mov      w0, w21
 01a63dfc: bl       #0x1a646cc ; PairzzleGameSession.SymbolChar
 01a63e00: cbz      x23, #0x1a63e6c
@@ -190,7 +190,7 @@
 01a63e28: adrp     x8, #0x2212000
 01a63e2c: ldr      x8, [x8, #0x58]
 01a63e30: ldr      x0, [x8]
-01a63e34: bl       #0xe54e9c ; 
+01a63e34: bl       #0xe54e9c ;
 01a63e38: mov      x1, xzr
 01a63e3c: mov      x22, x0
 01a63e40: bl       #0x18ca704 ; Object..ctor
@@ -202,7 +202,7 @@
 01a63e58: strb     w21, [x22, #0x14]
 01a63e5c: stur     q0, [x22, #0x18]
 01a63e60: stur     q1, [x22, #0x28]
-01a63e64: bl       #0xe54bf4 ; 
-01a63e68: b        #0x1a63be0 ; 
-01a63e6c: bl       #0xe54eac ; 
-01a63e70: bl       #0xe54eb4 ; 
+01a63e64: bl       #0xe54bf4 ;
+01a63e68: b        #0x1a63be0 ;
+01a63e6c: bl       #0xe54eac ;
+01a63e70: bl       #0xe54eb4 ;

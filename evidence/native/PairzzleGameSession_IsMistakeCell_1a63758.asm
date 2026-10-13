@@ -20,9 +20,9 @@
 01a637a0: ldrb     w8, [x8, #0x20]
 01a637a4: cmp      w9, w8
 01a637a8: cset     w0, ne
-01a637ac: b        #0x1a637b4 ; 
+01a637ac: b        #0x1a637b4 ;
 01a637b0: mov      w0, wzr
 01a637b4: ldr      x30, [sp], #0x10
-01a637b8: ret      
-01a637bc: bl       #0xe54eac ; 
-01a637c0: bl       #0xe54eb4 ; 
+01a637b8: ret
+01a637bc: bl       #0xe54eac ;
+01a637c0: bl       #0xe54eb4 ;

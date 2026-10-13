@@ -10,19 +10,19 @@
 01a63fe0: tbnz     w8, #0, #0x1a64028
 01a63fe4: adrp     x0, #0x2212000
 01a63fe8: ldr      x0, [x0, #0x10]
-01a63fec: bl       #0xe54c48 ; 
+01a63fec: bl       #0xe54c48 ;
 01a63ff0: adrp     x0, #0x2212000
 01a63ff4: ldr      x0, [x0, #0x48]
-01a63ff8: bl       #0xe54c48 ; 
+01a63ff8: bl       #0xe54c48 ;
 01a63ffc: adrp     x0, #0x2212000
 01a64000: ldr      x0, [x0, #0x50]
-01a64004: bl       #0xe54c48 ; 
+01a64004: bl       #0xe54c48 ;
 01a64008: adrp     x0, #0x2212000
 01a6400c: ldr      x0, [x0, #0x58]
-01a64010: bl       #0xe54c48 ; 
+01a64010: bl       #0xe54c48 ;
 01a64014: adrp     x0, #0x2212000
 01a64018: ldr      x0, [x0, #0x60]
-01a6401c: bl       #0xe54c48 ; 
+01a6401c: bl       #0xe54c48 ;
 01a64020: mov      w8, #1
 01a64024: strb     w8, [x20, #0xcb4]
 01a64028: movi     v0.2d, #0000000000000000
@@ -39,7 +39,7 @@
 01a64054: add      x0, sp, #0x30
 01a64058: ldr      x8, [x8, #0x50]
 01a6405c: ldr      x1, [x8]
-01a64060: bl       #0x14feff0 ; 
+01a64060: bl       #0x14feff0 ;
 01a64064: ldr      x8, [x19, #0x28]
 01a64068: cbz      x8, #0x1a641d8
 01a6406c: ldr      w9, [x8, #0x18]
@@ -58,7 +58,7 @@
 01a640a0: mov      x1, x0
 01a640a4: mov      x0, x19
 01a640a8: str      x1, [x0, #0x80]!
-01a640ac: bl       #0xe54bf4 ; 
+01a640ac: bl       #0xe54bf4 ;
 01a640b0: ldr      x22, [x19, #0x10]
 01a640b4: mov      x0, x19
 01a640b8: bl       #0x1a641e0 ; PairzzleGameSession.BuildReasoningState
@@ -68,7 +68,7 @@
 01a640c8: ldr      w9, [x8, #0xe4]
 01a640cc: cbnz     w9, #0x1a640d8
 01a640d0: mov      x0, x8
-01a640d4: bl       #0xe54d80 ; 
+01a640d4: bl       #0xe54d80 ;
 01a640d8: add      x8, sp, #0x10
 01a640dc: mov      x0, x22
 01a640e0: mov      x1, x24
@@ -98,7 +98,7 @@
 01a64140: orr      x1, x8, x24, lsl #32
 01a64144: str      wzr, [sp, #8]
 01a64148: str      xzr, [sp]
-01a6414c: bl       #0x14ff910 ; 
+01a6414c: bl       #0x14ff910 ;
 01a64150: ldr      x8, [sp]
 01a64154: ldr      w10, [x19, #0x40]
 01a64158: mov      x0, x19
@@ -111,7 +111,7 @@
 01a64174: str      w8, [x19, #0x40]
 01a64178: bl       #0x1a635a0 ; PairzzleGameSession.CheckSolved
 01a6417c: ldr      x0, [x23]
-01a64180: bl       #0xe54e9c ; 
+01a64180: bl       #0xe54e9c ;
 01a64184: mov      x1, xzr
 01a64188: mov      x19, x0
 01a6418c: bl       #0x18ca704 ; Object..ctor
@@ -123,8 +123,8 @@
 01a641a4: strb     w21, [x19, #0x14]
 01a641a8: stur     q0, [x19, #0x18]
 01a641ac: stur     q1, [x19, #0x28]
-01a641b0: bl       #0xe54bf4 ; 
-01a641b4: b        #0x1a641bc ; 
+01a641b0: bl       #0xe54bf4 ;
+01a641b4: b        #0x1a641bc ;
 01a641b8: mov      x19, xzr
 01a641bc: mov      x0, x19
 01a641c0: ldp      x20, x19, [sp, #0x70]
@@ -132,6 +132,6 @@
 01a641c8: ldp      x24, x23, [sp, #0x50]
 01a641cc: ldp      x30, x25, [sp, #0x40]
 01a641d0: add      sp, sp, #0x80
-01a641d4: ret      
-01a641d8: bl       #0xe54eac ; 
-01a641dc: bl       #0xe54eb4 ; 
+01a641d4: ret
+01a641d8: bl       #0xe54eac ;
+01a641dc: bl       #0xe54eb4 ;

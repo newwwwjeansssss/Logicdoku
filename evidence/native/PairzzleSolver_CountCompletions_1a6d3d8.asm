@@ -14,13 +14,13 @@
 01a6d408: tbnz     w8, #0, #0x1a6d438
 01a6d40c: adrp     x0, #0x21f0000
 01a6d410: ldr      x0, [x0, #0x470]
-01a6d414: bl       #0xe54c48 ; 
+01a6d414: bl       #0xe54c48 ;
 01a6d418: adrp     x0, #0x220b000
 01a6d41c: ldr      x0, [x0, #0x218]
-01a6d420: bl       #0xe54c48 ; 
+01a6d420: bl       #0xe54c48 ;
 01a6d424: adrp     x0, #0x220b000
 01a6d428: ldr      x0, [x0, #0x2f8]
-01a6d42c: bl       #0xe54c48 ; 
+01a6d42c: bl       #0xe54c48 ;
 01a6d430: mov      w8, #1
 01a6d434: strb     w8, [x19, #0xd1e]
 01a6d438: cbz      x21, #0x1a6d5e0
@@ -34,7 +34,7 @@
 01a6d458: ldr      x8, [x8, #0x470]
 01a6d45c: ldr      w1, [x0, #0x18]
 01a6d460: ldr      x0, [x8]
-01a6d464: bl       #0xe54cf0 ; 
+01a6d464: bl       #0xe54cf0 ;
 01a6d468: cmp      w23, #1
 01a6d46c: b.lt     #0x1a6d5b8
 01a6d470: str      w23, [sp, #0xc]
@@ -51,7 +51,7 @@
 01a6d49c: ldr      x2, [x27]
 01a6d4a0: mov      x0, x22
 01a6d4a4: mov      w1, w25
-01a6d4a8: bl       #0x140455c ; 
+01a6d4a8: bl       #0x140455c ;
 01a6d4ac: cbz      x24, #0x1a6d5e0
 01a6d4b0: ldr      w8, [x24, #0x18]
 01a6d4b4: cmp      w25, w8
@@ -63,7 +63,7 @@
 01a6d4cc: cmp      w8, #1
 01a6d4d0: b.le     #0x1a6d52c
 01a6d4d4: cbnz     x21, #0x1a6d564
-01a6d4d8: b        #0x1a6d5e0 ; 
+01a6d4d8: b        #0x1a6d5e0 ;
 01a6d4dc: str      w28, [x19]
 01a6d4e0: cbz      x21, #0x1a6d5e0
 01a6d4e4: mov      x0, x21
@@ -83,7 +83,7 @@
 01a6d51c: mov      w2, #2
 01a6d520: str      w29, [x19]
 01a6d524: bl       #0x1a60bec ; PairzzleBoardState.Set
-01a6d528: b        #0x1a6d554 ; 
+01a6d528: b        #0x1a6d554 ;
 01a6d52c: ldr      w8, [x24, #0x18]
 01a6d530: cmp      w25, w8
 01a6d534: b.hs     #0x1a6d5e4
@@ -107,18 +107,18 @@
 01a6d57c: b.hs     #0x1a6d5e4
 01a6d580: mov      w8, #-1
 01a6d584: str      wzr, [x19]
-01a6d588: b        #0x1a6d590 ; 
+01a6d588: b        #0x1a6d590 ;
 01a6d58c: mov      w8, #1
 01a6d590: adds     w25, w25, w8
 01a6d594: b.pl     #0x1a6d490
-01a6d598: b        #0x1a6d5bc ; 
+01a6d598: b        #0x1a6d5bc ;
 01a6d59c: subs     w25, w25, #1
 01a6d5a0: add      w23, w23, #1
 01a6d5a4: b.lt     #0x1a6d5bc
 01a6d5a8: ldr      w8, [sp, #0xc]
 01a6d5ac: cmp      w23, w8
 01a6d5b0: b.lt     #0x1a6d490
-01a6d5b4: b        #0x1a6d5bc ; 
+01a6d5b4: b        #0x1a6d5bc ;
 01a6d5b8: mov      w23, wzr
 01a6d5bc: mov      w0, w23
 01a6d5c0: ldp      x20, x19, [sp, #0x60]
@@ -128,6 +128,6 @@
 01a6d5d0: ldp      x28, x27, [sp, #0x20]
 01a6d5d4: ldp      x29, x30, [sp, #0x10]
 01a6d5d8: add      sp, sp, #0x70
-01a6d5dc: ret      
-01a6d5e0: bl       #0xe54eac ; 
-01a6d5e4: bl       #0xe54eb4 ; 
+01a6d5dc: ret
+01a6d5e0: bl       #0xe54eac ;
+01a6d5e4: bl       #0xe54eb4 ;

@@ -13,13 +13,13 @@
 01a64284: tbnz     w8, #0, #0x1a642b4
 01a64288: adrp     x0, #0x220b000
 01a6428c: ldr      x0, [x0, #0x218]
-01a64290: bl       #0xe54c48 ; 
+01a64290: bl       #0xe54c48 ;
 01a64294: adrp     x0, #0x220b000
 01a64298: ldr      x0, [x0, #0x2f8]
-01a6429c: bl       #0xe54c48 ; 
+01a6429c: bl       #0xe54c48 ;
 01a642a0: adrp     x0, #0x2212000
 01a642a4: ldr      x0, [x0, #0x68]
-01a642a8: bl       #0xe54c48 ; 
+01a642a8: bl       #0xe54c48 ;
 01a642ac: mov      w8, #1
 01a642b0: strb     w8, [x20, #0xd22]
 01a642b4: mov      x0, x21
@@ -42,7 +42,7 @@
 01a642f8: ldr      x2, [x26]
 01a642fc: mov      x0, x20
 01a64300: mov      w1, w22
-01a64304: bl       #0x140455c ; 
+01a64304: bl       #0x140455c ;
 01a64308: cbz      x21, #0x1a643d0
 01a6430c: mov      w23, w0
 01a64310: mov      x28, xzr
@@ -72,7 +72,7 @@
 01a64370: b.lt     #0x1a642f8
 01a64374: str      wzr, [sp, #8]
 01a64378: str      xzr, [sp]
-01a6437c: b        #0x1a643a8 ; 
+01a6437c: b        #0x1a643a8 ;
 01a64380: tst      w29, #1
 01a64384: mov      x8, #0x200000000
 01a64388: ldr      x2, [x25]
@@ -82,7 +82,7 @@
 01a64398: orr      x1, x8, x9
 01a6439c: str      wzr, [sp, #8]
 01a643a0: str      xzr, [sp]
-01a643a4: bl       #0x14fefd8 ; 
+01a643a4: bl       #0x14fefd8 ;
 01a643a8: ldp      x20, x19, [sp, #0x60]
 01a643ac: ldr      x0, [sp]
 01a643b0: ldp      x22, x21, [sp, #0x50]
@@ -92,5 +92,5 @@
 01a643c0: ldp      x28, x27, [sp, #0x20]
 01a643c4: ldp      x29, x30, [sp, #0x10]
 01a643c8: add      sp, sp, #0x70
-01a643cc: ret      
-01a643d0: bl       #0xe54eac ; 
+01a643cc: ret
+01a643d0: bl       #0xe54eac ;
