@@ -1,4 +1,15 @@
-# Logicdoku — Twindoku 关卡恢复与逻辑分析
+# Logicdoku — 游戏关卡源码与 Twindoku 分析
+
+本仓库分为两部分：
+
+| 目录 | 内容与命名 |
+| --- | --- |
+| [`game-levels/`](game-levels/README.md) | **我们游戏的关卡结构与维护工具源码**：400关、2320条约束、Unity C#解析/求解/会话、Excel表及导入导出编译脚本。未包含独立可视化关卡编辑器。 |
+| `levels/`、`raw_levels/`、`scripts/`、`evidence/` | **Twindoku竞品关卡恢复与逻辑分析**：下文保留原分析说明。 |
+
+我们游戏的源码入口与目录命名见 [game-levels/README.md](game-levels/README.md)，题面示例见 [level-0001.json](game-levels/examples/level-0001.json)。
+
+## Twindoku 关卡恢复与逻辑分析
 
 基于 Android Twindoku **1.2.0（versionCode 5）** / `com.oakever.pairzzle` 的本地 APK 分析，日期 2026-10-13。引擎为 Unity 6000.3.16f1 / ARM64 IL2CPP。
 

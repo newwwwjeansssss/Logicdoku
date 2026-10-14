@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "cuddledoku-symbol-skins-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "formatKey",
+    "formatRevision",
+    "skins"
+  ],
+  "properties": {
+    "formatKey": {
+      "const": "cuddledoku.symbol-skins"
+    },
+    "formatRevision": {
+      "const": 1
+    },
+    "skins": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "styleKey",
+          "slot",
+          "iconAddress",
+          "labelKey",
+          "placeSfxAddress",
+          "displayScale"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "styleKey": {
+            "type": "string",
+            "minLength": 1
+          },
+          "slot": {
+            "enum": [
+              "A",
+              "B"
+            ]
+          },
+          "iconAddress": {
+            "type": "string",
+            "minLength": 1
+          },
+          "labelKey": {
+            "type": "string",
+            "minLength": 1
+          },
+          "placeSfxAddress": {
+            "type": "string"
+          },
+          "displayScale": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        }
+      }
+    }
+  }
+}

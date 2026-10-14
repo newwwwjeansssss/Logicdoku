@@ -1,0 +1,21 @@
+{
+  "sourceDirectory": "D:/Logicdoku/最新版混版400关-四关替换验收版/最新版混版400关-四关替换验收版",
+  "sha256": "bb36ccb458d5fbb8e0b5913a635d9fa392a318544381431788719dd15a459bb9",
+  "contentTag": "mixed400-20261012",
+  "count": 400,
+  "banks": {
+    "basic": 355,
+    "logic": 45
+  },
+  "challengeCount": 69,
+  "clauses": 2320,
+  "firstRules": {
+    "balance": 1,
+    "nothree": 1,
+    "region": 11,
+    "edge": 7,
+    "edgecount": 30,
+    "corner": 40,
+    "holes": 19
+  }
+}

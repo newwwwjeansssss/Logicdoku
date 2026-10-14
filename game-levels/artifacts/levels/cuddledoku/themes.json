@@ -1,0 +1,8 @@
+{
+  "formatKey": "cuddledoku.symbol-skins",
+  "formatRevision": 1,
+  "skins": [
+    {"key":"classic-A","styleKey":"classic","slot":"A","iconAddress":"icon_sun","labelKey":"luma_symbol_classic_a","placeSfxAddress":"Assets/Res/LumaPairsSub/Audio/SFX_correct_sun","displayScale":1.0},
+    {"key":"classic-B","styleKey":"classic","slot":"B","iconAddress":"icon_moon","labelKey":"luma_symbol_classic_b","placeSfxAddress":"Assets/Res/LumaPairsSub/Audio/SFX_correct_moon","displayScale":0.82}
+  ]
+}

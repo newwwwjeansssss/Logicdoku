@@ -1,0 +1,209 @@
+{
+  "commit": "491da587af3c3e96891b576f5583d138be94a894",
+  "files": [
+    {
+      "path": "AI/Config/新版400关实施记录.md",
+      "bytes": 5639,
+      "sha256": "6e130ba7d96d6531d228135cbe0c95c90b2ba4e3bea1f379729908f322266166"
+    },
+    {
+      "path": "AI/Config/混版400关接入记录-20261012.md",
+      "bytes": 5205,
+      "sha256": "7595b99fc0a92729b4bfa27277962dc787765b97cbacbcacb17ea1c7e6e5fc34"
+    },
+    {
+      "path": "AI/Config/自主关卡配置规范.md",
+      "bytes": 20733,
+      "sha256": "29bd0e908ee5f987d6ba552d62ae34252f724052805d50a271e8ac62802a30bd"
+    },
+    {
+      "path": "Excle/puzzleBoard.xlsm",
+      "bytes": 130,
+      "sha256": "c2b290d843934ce9dd05e71da1182cf694ea4208ff7ebaa3d71d2dff59dc5965"
+    },
+    {
+      "path": "Excle/puzzleClause.xlsm",
+      "bytes": 131,
+      "sha256": "4ff0a379af20ccb863604c9f15199e341c55c1eabb172b405809c8d78d883ea2"
+    },
+    {
+      "path": "Excle/puzzleRoute.xlsm",
+      "bytes": 130,
+      "sha256": "8e6a8451ab810daf3cb85b3b446a22bc2abe480a392dff8f90e0a58eb881246b"
+    },
+    {
+      "path": "Excle/symbolSkin.xlsm",
+      "bytes": 129,
+      "sha256": "721f7eb3a0839efac730f0e756cb9cf1cbb4cb0bec56cb60adcce90256c35591"
+    },
+    {
+      "path": "Excle/一键生成配置类.py",
+      "bytes": 43635,
+      "sha256": "c55b7774f95bc472629c65536672bcb2ea80664905b2049a4b3c1e04a7a1c153"
+    },
+    {
+      "path": "Excle/一键编译.py",
+      "bytes": 18523,
+      "sha256": "6f726b3c59de4a37c5db5fd6e4995f452ff05ea296f4624809931b205377190f"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaFeedbackTiming.cs",
+      "bytes": 1137,
+      "sha256": "ccb0eaa31ac6a322d18303dec741639ea10574a04a018614d20944ca12f89227"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaLevel.cs",
+      "bytes": 5916,
+      "sha256": "c7c43400ac765cbe2fd8b2cbdc5fe63ca7e34bc5469a028b3d44d51967bc0732"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaSession.cs",
+      "bytes": 19179,
+      "sha256": "0abeef32e775ae291c090a22f8cc9a3537542658891ecd56075383602c68a6f1"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaSolver.cs",
+      "bytes": 6564,
+      "sha256": "8e87b2132bf2c3d80088a30c85ed96ab510c35cb2fe77cc2aadf8559264f4ff8"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaTapGesture.cs",
+      "bytes": 1012,
+      "sha256": "c96421f709020802a5617864f4c9af056bb1b9c4014c10199726299c13622822"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/PuzzleCatalogReader.cs",
+      "bytes": 10423,
+      "sha256": "d96e1740b493b9c995f1f4dbe559ada302b07738ae1f730594053af1b75fce79"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/Logic/SymbolThemeResolver.cs",
+      "bytes": 2306,
+      "sha256": "536901723696031f29e8fc0d88a4fdcbfdbd4c18987739f20d31ba075666d675"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/LumaPairs/UI/Page/PageLumaPairs.cs",
+      "bytes": 22708,
+      "sha256": "cb948f296bdb14b10bce3fa358d9f09be9cc534165afd91b3c07bc905c1062b6"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/Xs/Config/PuzzleBoardConfigMgr.cs",
+      "bytes": 832,
+      "sha256": "9217ac4a52e03d71a68369348fe6c3885ce9ff573dda5131b9ce551d9fc15ad2"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/Xs/Config/PuzzleClauseConfigMgr.cs",
+      "bytes": 1586,
+      "sha256": "dd0e62958d58c87ce367af4389ffa38d8fa1c26e3fc7944f538d5f66bbd6f427"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/Xs/Config/PuzzleRouteConfigMgr.cs",
+      "bytes": 1668,
+      "sha256": "361269975c948fe4f223d1ca3b02baf3fe17df3f61ab8966f85768558a5671cf"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/Xs/Config/SymbolSkinConfigMgr.cs",
+      "bytes": 1162,
+      "sha256": "073ae974de4fffd4dd310f79d4896ae6c5cf0afbdfad21a5e67ae2ed7bd45d1f"
+    },
+    {
+      "path": "UnityWork/Assets/HotUpdate/Xs/ConfigInsResgister.cs",
+      "bytes": 914,
+      "sha256": "5a1887355f49a25e1f2e412811e1ece2413d1f275741c3fe1cdfa148810def5d"
+    },
+    {
+      "path": "UnityWork/Assets/StreamingAssets/HotUpdate/Config/gamedata.json",
+      "bytes": 84028,
+      "sha256": "0910bcac00359383d4f348ac6119dd7461739d6fd794da99eeae52e34cd3bc33"
+    },
+    {
+      "path": "UnityWork/Assets/Tests/EditMode/Fixtures/LumaLevels.json",
+      "bytes": 896173,
+      "sha256": "9842af31f40d057f373d1049e5a5ac183b9c4ece5ea0d640e0f4b1365809665b"
+    },
+    {
+      "path": "UnityWork/Assets/Tests/EditMode/PuzzleCatalogTests.cs",
+      "bytes": 7819,
+      "sha256": "1ea05e9737571ea20115825a15836c309214e2821bde06ce765411bf4e7a7d21"
+    },
+    {
+      "path": "artifacts/levels/cuddledoku/main.json",
+      "bytes": 896173,
+      "sha256": "9842af31f40d057f373d1049e5a5ac183b9c4ece5ea0d640e0f4b1365809665b"
+    },
+    {
+      "path": "artifacts/levels/cuddledoku/tables.json",
+      "bytes": 683905,
+      "sha256": "d630bdead860183008f756bfee7fb507cd46524a476e4029c2d9787cb2c7c665"
+    },
+    {
+      "path": "artifacts/levels/cuddledoku/themes.json",
+      "bytes": 492,
+      "sha256": "0a5113b92a5c20bfef750575e2a396fefecbae80165eda3ec6a1aad715ee193c"
+    },
+    {
+      "path": "artifacts/levels/cuddledoku/web-theme-bindings.json",
+      "bytes": 170,
+      "sha256": "f6532be7fe1d9677152dcee5459b04d983ec04217881727148223d9d1bd49aa8"
+    },
+    {
+      "path": "artifacts/levels/source/mixed-four-400/course.json",
+      "bytes": 115343,
+      "sha256": "7cbc7b6687d65ddfc9e653ac7a345945d3aa656d21fac106b85a0f6464b2cbeb"
+    },
+    {
+      "path": "artifacts/levels/source/mixed-four-400/provenance.json",
+      "bytes": 503,
+      "sha256": "398c9fa13f66ae377f7ccea4801dafe5cdf80b4411d599749cff56f0e2ee1a48"
+    },
+    {
+      "path": "artifacts/levels/source/mixed-four-400/source.json",
+      "bytes": 7448356,
+      "sha256": "bb36ccb458d5fbb8e0b5913a635d9fa392a318544381431788719dd15a459bb9"
+    },
+    {
+      "path": "schemas/cuddledoku-puzzle-set-v1.schema.json",
+      "bytes": 10161,
+      "sha256": "5d83628d6ec1b08adbcc8201b1c8476835d10d176d98afa0bbdba32ca4c33896"
+    },
+    {
+      "path": "schemas/cuddledoku-symbol-skins-v1.schema.json",
+      "bytes": 1405,
+      "sha256": "6bd42fbf8fb8c09f86acb1b71ea2b5245377e7b82ae9f6fdfd8ca01f6841a095"
+    },
+    {
+      "path": "tools/levels/Export-Xlsm.ps1",
+      "bytes": 1522,
+      "sha256": "d5d9048115235fa1677c2682b3e4ca480c885a4be6bcc92eea8393c983b911df"
+    },
+    {
+      "path": "tools/levels/export-workbooks.mjs",
+      "bytes": 2203,
+      "sha256": "0b877f238eca0a382421c7b490abbdfdcb33d3b755001f87b41da2169a3c20aa"
+    },
+    {
+      "path": "tools/levels/import-mixed-catalog.mjs",
+      "bytes": 5142,
+      "sha256": "dde6a1cf8b88bf07f48e88044b62fd555f1a93e1b30fdbb7b87e7bf49c31443e"
+    },
+    {
+      "path": "tools/tests/LevelCatalog/ConfigStubs.cs",
+      "bytes": 450,
+      "sha256": "8797be0aa437ec1fb86ec16de4b86f1d07ce7e2cc63d5858586fc3c3b7755331"
+    },
+    {
+      "path": "tools/tests/LevelCatalog/LevelCatalog.csproj",
+      "bytes": 1271,
+      "sha256": "37eba7760768fe2541fc62477e28b8bd8e1cd9f9b6fd6b2cd967cb50335b1560"
+    },
+    {
+      "path": "tools/tests/LevelCatalog/Program.cs",
+      "bytes": 10945,
+      "sha256": "656e3384f9644fd339048ed2889e28a2b9ec2b5b02c9fc69632d89b4244d19c1"
+    }
+  ],
+  "checks": {
+    "sourceCopyHashes": "passed",
+    "puzzleHashes": 400
+  }
+}

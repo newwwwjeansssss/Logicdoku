@@ -1,0 +1,447 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "cuddledoku-puzzle-set-v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "formatKey",
+    "formatRevision",
+    "catalogKey",
+    "contentTag",
+    "routes",
+    "boards",
+    "clauses"
+  ],
+  "properties": {
+    "formatKey": {
+      "const": "cuddledoku.puzzle-set"
+    },
+    "formatRevision": {
+      "const": 1
+    },
+    "catalogKey": {
+      "const": "main"
+    },
+    "contentTag": {
+      "type": "string",
+      "minLength": 1
+    },
+    "routes": {
+      "type": "array",
+      "minItems": 400,
+      "maxItems": 400,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "orderIndex",
+          "boardRef",
+          "clauseSetRef",
+          "grade",
+          "featured",
+          "ruleDeck",
+          "cutoutMode",
+          "puzzleHash"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "orderIndex": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 400
+          },
+          "boardRef": {
+            "type": "string"
+          },
+          "clauseSetRef": {
+            "type": "string"
+          },
+          "grade": {
+            "enum": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ]
+          },
+          "featured": {
+            "enum": [
+              0,
+              1
+            ]
+          },
+          "ruleDeck": {
+            "type": "string"
+          },
+          "cutoutMode": {
+            "enum": [
+              "ornament",
+              "open"
+            ]
+          },
+          "puzzleHash": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        }
+      }
+    },
+    "boards": {
+      "type": "array",
+      "minItems": 400,
+      "maxItems": 400,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "columns",
+          "rows",
+          "cells"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "columns": {
+            "enum": [
+              4,
+              6,
+              8
+            ]
+          },
+          "rows": {
+            "enum": [
+              4,
+              6,
+              8
+            ]
+          },
+          "cells": {
+            "type": "string",
+            "pattern": "^[.#AB]+$"
+          }
+        }
+      }
+    },
+    "clauses": {
+      "type": "array",
+      "minItems": 800,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "key",
+          "setRef",
+          "order",
+          "op",
+          "axis",
+          "cellRefs",
+          "zoneLabel",
+          "relation",
+          "edge",
+          "lane",
+          "slot",
+          "amount"
+        ],
+        "properties": {
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "setRef": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "op": {
+            "enum": [
+              "trackBalance",
+              "runCeiling",
+              "districtBalance",
+              "pairRelation",
+              "entryPosition",
+              "junctionCount"
+            ]
+          },
+          "axis": {
+            "type": "string"
+          },
+          "cellRefs": {
+            "type": "string"
+          },
+          "zoneLabel": {
+            "type": "integer"
+          },
+          "relation": {
+            "type": "string"
+          },
+          "edge": {
+            "type": "string"
+          },
+          "lane": {
+            "type": "integer"
+          },
+          "slot": {
+            "type": "string"
+          },
+          "amount": {
+            "type": "integer"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "op": {
+                  "const": "trackBalance"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "cellRefs": {
+                  "const": ""
+                },
+                "zoneLabel": {
+                  "const": -1
+                },
+                "relation": {
+                  "const": ""
+                },
+                "edge": {
+                  "const": ""
+                },
+                "lane": {
+                  "const": -1
+                },
+                "slot": {
+                  "const": ""
+                },
+                "amount": {
+                  "const": -1
+                },
+                "axis": {
+                  "const": "both"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "op": {
+                  "const": "runCeiling"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "cellRefs": {
+                  "const": ""
+                },
+                "zoneLabel": {
+                  "const": -1
+                },
+                "relation": {
+                  "const": ""
+                },
+                "edge": {
+                  "const": ""
+                },
+                "lane": {
+                  "const": -1
+                },
+                "slot": {
+                  "const": ""
+                },
+                "axis": {
+                  "const": "both"
+                },
+                "amount": {
+                  "const": 2
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "op": {
+                  "const": "districtBalance"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "axis": {
+                  "const": ""
+                },
+                "relation": {
+                  "const": ""
+                },
+                "edge": {
+                  "const": ""
+                },
+                "lane": {
+                  "const": -1
+                },
+                "slot": {
+                  "const": ""
+                },
+                "amount": {
+                  "const": -1
+                },
+                "cellRefs": {
+                  "type": "string",
+                  "pattern": "^(0|[1-9][0-9]*)(,(0|[1-9][0-9]*))*$"
+                },
+                "zoneLabel": {
+                  "type": "integer",
+                  "minimum": 0
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "op": {
+                  "const": "pairRelation"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "axis": {
+                  "const": ""
+                },
+                "zoneLabel": {
+                  "const": -1
+                },
+                "edge": {
+                  "const": ""
+                },
+                "lane": {
+                  "const": -1
+                },
+                "slot": {
+                  "const": ""
+                },
+                "amount": {
+                  "const": -1
+                },
+                "cellRefs": {
+                  "type": "string",
+                  "pattern": "^(0|[1-9][0-9]*)(,(0|[1-9][0-9]*))*$"
+                },
+                "relation": {
+                  "enum": [
+                    "same",
+                    "opposite"
+                  ]
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "op": {
+                  "const": "entryPosition"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "axis": {
+                  "const": ""
+                },
+                "cellRefs": {
+                  "const": ""
+                },
+                "zoneLabel": {
+                  "const": -1
+                },
+                "relation": {
+                  "const": ""
+                },
+                "slot": {
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                },
+                "edge": {
+                  "enum": [
+                    "west",
+                    "north"
+                  ]
+                },
+                "lane": {
+                  "type": "integer",
+                  "minimum": 0
+                },
+                "amount": {
+                  "type": "integer",
+                  "minimum": 1
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "op": {
+                  "const": "junctionCount"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "axis": {
+                  "const": ""
+                },
+                "zoneLabel": {
+                  "const": -1
+                },
+                "relation": {
+                  "const": ""
+                },
+                "edge": {
+                  "const": ""
+                },
+                "lane": {
+                  "const": -1
+                },
+                "slot": {
+                  "enum": [
+                    "A",
+                    "B"
+                  ]
+                },
+                "cellRefs": {
+                  "type": "string",
+                  "pattern": "^(0|[1-9][0-9]*)(,(0|[1-9][0-9]*))*$"
+                },
+                "amount": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 4
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

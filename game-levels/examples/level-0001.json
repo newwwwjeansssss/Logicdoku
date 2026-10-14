@@ -1,0 +1,57 @@
+{
+  "formatKey": "cuddledoku.puzzle-set",
+  "formatRevision": 1,
+  "catalogKey": "main",
+  "contentTag": "mixed400-20261012",
+  "routes": [
+    {
+      "key": "hd-main-0001",
+      "orderIndex": 1,
+      "boardRef": "board-main-0001",
+      "clauseSetRef": "clauses-main-0001",
+      "grade": 1,
+      "featured": 0,
+      "ruleDeck": "trackBalance,runCeiling",
+      "cutoutMode": "ornament",
+      "puzzleHash": "6cb697b6a028cf082fce0ce6ab5cb4e90b7701044c27b03ad44c7475b707c865"
+    }
+  ],
+  "boards": [
+    {
+      "key": "board-main-0001",
+      "columns": 4,
+      "rows": 4,
+      "cells": "..AAAABB...BBAB."
+    }
+  ],
+  "clauses": [
+    {
+      "key": "clause-main-0001-0001",
+      "setRef": "clauses-main-0001",
+      "order": 1,
+      "op": "trackBalance",
+      "axis": "both",
+      "cellRefs": "",
+      "zoneLabel": -1,
+      "relation": "",
+      "edge": "",
+      "lane": -1,
+      "slot": "",
+      "amount": -1
+    },
+    {
+      "key": "clause-main-0001-0002",
+      "setRef": "clauses-main-0001",
+      "order": 2,
+      "op": "runCeiling",
+      "axis": "both",
+      "cellRefs": "",
+      "zoneLabel": -1,
+      "relation": "",
+      "edge": "",
+      "lane": -1,
+      "slot": "",
+      "amount": 2
+    }
+  ]
+}

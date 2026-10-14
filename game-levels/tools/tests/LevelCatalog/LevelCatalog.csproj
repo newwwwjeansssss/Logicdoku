@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>disable</Nullable></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaLevel.cs" Link="LumaLevel.cs" />
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaSolver.cs" Link="LumaSolver.cs" />
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/LumaPairs/Logic/LumaSession.cs" Link="LumaSession.cs" />
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/LumaPairs/Logic/PuzzleCatalogReader.cs" Link="PuzzleCatalogReader.cs" />
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/LumaPairs/Logic/SymbolThemeResolver.cs" Link="SymbolThemeResolver.cs" />
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/Xs/Config/Puzzle*ConfigMgr.cs" Link="%(Filename).cs" />
+    <Compile Include="../../../UnityWork/Assets/HotUpdate/Xs/Config/SymbolSkinConfigMgr.cs" Link="SymbolSkinConfigMgr.cs" />
+    <Reference Include="Newtonsoft.Json"><HintPath>../../../UnityWork/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64/Runtime/Newtonsoft.Json.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
