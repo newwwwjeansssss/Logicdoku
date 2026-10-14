@@ -9,6 +9,10 @@
 
 我们游戏的源码入口与目录命名见 [game-levels/README.md](game-levels/README.md)，题面示例见 [level-0001.json](game-levels/examples/level-0001.json)。
 
+## 独立关卡资料包
+
+- [三版关卡对比包：原版 / 最新版 / 第二版体验匹配版（400关）](level-packs/three-version-experience-match-400/README.md)：2026-10-14上传，包含关卡JSON、离线试玩、难度对比、引导关替换记录及备份；独立保存在 `level-packs/three-version-experience-match-400/`。
+
 ## Twindoku 关卡恢复与逻辑分析
 
 基于 Android Twindoku **1.2.0（versionCode 5）** / `com.oakever.pairzzle` 的本地 APK 分析，日期 2026-10-13。引擎为 Unity 6000.3.16f1 / ARM64 IL2CPP。

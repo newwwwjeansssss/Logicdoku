@@ -1,0 +1,87 @@
+{
+  "beforeJson": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\备份\\最新版-逐轮优先版-400关-五关引导替换前.json",
+  "afterJson": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\最新版-逐轮优先版-400关.json",
+  "afterSha256": "05fe9937f4351ce668009dc3e1a55d6ff5b2086d3c84ff0c2101bc80dea5c9ef",
+  "levelCount": 400,
+  "changedStages": [
+    8,
+    12,
+    20,
+    31,
+    41
+  ],
+  "unchangedLevels": 395,
+  "renderSource": "saved JSON only; givens, holes, regions, edges, edgeClues, cornerClues",
+  "checks": [
+    {
+      "stage": 8,
+      "unique": true,
+      "basicComplete": true,
+      "givens": 4,
+      "holes": 0,
+      "unknown": 12,
+      "rounds": 4,
+      "perRound": [
+        5,
+        3,
+        3,
+        1
+      ],
+      "comparisonImage": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\引导关卡替换对比\\第008关-替换前后对比.png"
+    },
+    {
+      "stage": 12,
+      "unique": true,
+      "basicComplete": true,
+      "givens": 8,
+      "holes": 0,
+      "unknown": 8,
+      "rounds": 1,
+      "perRound": [
+        8
+      ],
+      "comparisonImage": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\引导关卡替换对比\\第012关-替换前后对比.png"
+    },
+    {
+      "stage": 20,
+      "unique": true,
+      "basicComplete": true,
+      "givens": 7,
+      "holes": 4,
+      "unknown": 5,
+      "rounds": 1,
+      "perRound": [
+        5
+      ],
+      "comparisonImage": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\引导关卡替换对比\\第020关-替换前后对比.png"
+    },
+    {
+      "stage": 31,
+      "unique": true,
+      "basicComplete": true,
+      "givens": 6,
+      "holes": 0,
+      "unknown": 10,
+      "rounds": 2,
+      "perRound": [
+        8,
+        2
+      ],
+      "comparisonImage": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\引导关卡替换对比\\第031关-替换前后对比.png"
+    },
+    {
+      "stage": 41,
+      "unique": true,
+      "basicComplete": true,
+      "givens": 2,
+      "holes": 0,
+      "unknown": 14,
+      "rounds": 2,
+      "perRound": [
+        6,
+        8
+      ],
+      "comparisonImage": "C:\\Users\\13051\\Desktop\\原版-最新版-第二版体验匹配版400关\\引导关卡替换对比\\第041关-替换前后对比.png"
+    }
+  ]
+}

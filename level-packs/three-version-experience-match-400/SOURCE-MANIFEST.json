@@ -1,0 +1,129 @@
+{
+  "sourceFolder": "原版-最新版-第二版体验匹配版400关 2",
+  "uploadedOn": "2026-10-14",
+  "excluded": [
+    "tools/__pycache__/replace_and_render_guides.cpython-312.pyc"
+  ],
+  "files": [
+    {
+      "path": "tools/replace_and_render_guides.py",
+      "bytes": 19899,
+      "sha256": "164bbc3816489b997a13ce1d35d96f5fe72a666f4e6a4f34127877534233d651"
+    },
+    {
+      "path": "三版试玩对比.html",
+      "bytes": 8405623,
+      "sha256": "cd2724dbf08985d031a14d4ced775fef623fb40007703821c221b335beef75cf"
+    },
+    {
+      "path": "三版难度曲线对比.html",
+      "bytes": 349454,
+      "sha256": "7c4680e36b6a37ae56246b7c9bdf9caffbd27a26db4f2d6c2dbd9ae993199944"
+    },
+    {
+      "path": "三版难度曲线对比.png",
+      "bytes": 476623,
+      "sha256": "c4fbafd5247a542777f6ca43515927d247a87e8e380b3ac559c17a0e15ecbdb3"
+    },
+    {
+      "path": "三版难度曲线对比.svg",
+      "bytes": 277287,
+      "sha256": "d0e6fb90f9fa3911b15beeadaac6869fd5417094bcef5c37ac96423d66435951"
+    },
+    {
+      "path": "三版难度逐关对比.json",
+      "bytes": 527361,
+      "sha256": "71d9d566e154eea0821be647457cc190a78a846fd66722bdbcac0ade4691f20c"
+    },
+    {
+      "path": "原版-400关.json",
+      "bytes": 6646539,
+      "sha256": "357d21da2fbd3888947c570cfe026e0baae8cd7f6fd2227520c3628c5cc399dd"
+    },
+    {
+      "path": "备份/最新版-逐轮优先版-400关-五关引导替换前.json",
+      "bytes": 7175692,
+      "sha256": "de4c74e4dfa64223b6a6b81dc3f6155d0e10bdd34db381acbe01b70ac3eb0370"
+    },
+    {
+      "path": "备份/最新版-逐轮优先版-400关-修改前.json",
+      "bytes": 7183467,
+      "sha256": "a9eda9feb9059d2a07c4ff59b05bba87f0ffdae9909c7f5b9ee8c9a17da85f18"
+    },
+    {
+      "path": "备份/最新版-逐轮优先版-400关-整体顺延前.json",
+      "bytes": 7166616,
+      "sha256": "8b5c090d45ea4e9ee811a0b7b7a8482319a7bfe0a6fda9450f4fe4a315f0d694"
+    },
+    {
+      "path": "引导关卡替换对比/五关引导替换对比.html",
+      "bytes": 991,
+      "sha256": "9a32d4a242437a229d91f9b8aa432f4d7f48ce94536079a214313d48ada5db1f"
+    },
+    {
+      "path": "引导关卡替换对比/核对结果.json",
+      "bytes": 2546,
+      "sha256": "6ff011e468976f3e8e0c66228a2c6cc8a7eb064403c47d7f15c633dffdfc837e"
+    },
+    {
+      "path": "引导关卡替换对比/第008关-替换前后对比.png",
+      "bytes": 104137,
+      "sha256": "a56c84d206502c7f981d3708852a3b21880024d505a0b3bdeb8dfc20bc717564"
+    },
+    {
+      "path": "引导关卡替换对比/第012关-替换前后对比.png",
+      "bytes": 119643,
+      "sha256": "3b084258c5dd3b67ffe250dd85a95e5cb6be10341fde774af178f3ae63eccec0"
+    },
+    {
+      "path": "引导关卡替换对比/第020关-替换前后对比.png",
+      "bytes": 106990,
+      "sha256": "c35c5c1fe700dc0b61ca44c540fdbb9c3f5fc5d7383a0ed0ad8018e29f2cfd2b"
+    },
+    {
+      "path": "引导关卡替换对比/第031关-替换前后对比.png",
+      "bytes": 108263,
+      "sha256": "d8df57ca25a981afcbe063a6c988299d929e1dbb666f126fd6ca29e1fb37a1ec"
+    },
+    {
+      "path": "引导关卡替换对比/第041关-替换前后对比.png",
+      "bytes": 104859,
+      "sha256": "1ed70b05fc8dcd53fadb3ffaa25796004ee2e1ca53e26e5437b3b1b52b3ad63f"
+    },
+    {
+      "path": "打开说明.txt",
+      "bytes": 968,
+      "sha256": "a644370871bf0f7164273f08ee5907733bf427c7ae2db0d0579d6e885068eafd"
+    },
+    {
+      "path": "最新版-逐轮优先版-400关.json",
+      "bytes": 7167567,
+      "sha256": "05fe9937f4351ce668009dc3e1a55d6ff5b2086d3c84ff0c2101bc80dea5c9ef"
+    },
+    {
+      "path": "最新版-顺延及五关引导替换完成版-400关.json",
+      "bytes": 7167567,
+      "sha256": "05fe9937f4351ce668009dc3e1a55d6ff5b2086d3c84ff0c2101bc80dea5c9ef"
+    },
+    {
+      "path": "最新版试玩.html",
+      "bytes": 24199809,
+      "sha256": "3837a222f330b290b7932874e2375d42dd7b22a5a502075d7e5bd2f6d6ec6010"
+    },
+    {
+      "path": "第二版-体验匹配版-400关.json",
+      "bytes": 6648561,
+      "sha256": "566fc3d7a589ec6e91724b14a946dc187ba8e532f930b27bf5a4c0589a98c56f"
+    },
+    {
+      "path": "第二版体验匹配版试玩.html",
+      "bytes": 23888661,
+      "sha256": "a8efefd0a2d012c43b61c2e6415b16c39b48c836f83b5f68f27eb555a7f0f75c"
+    },
+    {
+      "path": "难度模型.json",
+      "bytes": 384,
+      "sha256": "4d629edc7739a4e0156b442a5f91f81e83e49955d472a6b247fc4456f35fa084"
+    }
+  ]
+}

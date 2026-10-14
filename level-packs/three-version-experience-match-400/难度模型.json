@@ -1,0 +1,16 @@
+{
+  "id": "descriptive-v2-round30",
+  "weights": {
+    "workload": 25,
+    "unknownRatio": 15,
+    "rounds": 30,
+    "remainingRatio": 20,
+    "mechanics": 10
+  },
+  "formula": "25*U/64 + 15*U/A + 30*log2(1+R)/log2(65) + 20*B/max(U,1) + 10*M/5",
+  "maxBoardCells": 64,
+  "roundNormalization": 65,
+  "mechanicKinds": 5,
+  "calibratedWithPlayers": false,
+  "officialGameModel": false
+}
